@@ -1,0 +1,6 @@
+framework module Pods_ChorganizerUITests {
+  umbrella header "Pods-ChorganizerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

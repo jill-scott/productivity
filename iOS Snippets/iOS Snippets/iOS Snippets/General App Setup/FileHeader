@@ -1,0 +1,24 @@
+
+Below you will find the generic header our team uses for projects.
+It differs from the generic header in that it does not include the name of
+the file's creator. This is a remenant of one team member who aptly put it
+"We all take credit for the successes and failures of the team." This
+text should be placed in a plist file in:
+
+[Project Folder] -> Workspace (Right click to view package contents) -> xcshareddata
+(if the folder does not exist therein, create it)
+(May also work to simply keep it somewhere in the project folder.)
+
+And example of this plist file can also be found in the General App Setup folder.
+(Note: the first line is actually above ___PACKAGENAME___
+It includes only a single space because xcode will add // to the beginning of
+the first line in the header. Include this line with just a space!)
+
+
+
+//  ___PACKAGENAME___
+//  ___FILEBASENAME___
+//
+//  Created on ___DATE___
+//  Copyright (c) ___COPYRIGHT___ ___ORGANIZATIONNAME___
+//
